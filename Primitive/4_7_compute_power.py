@@ -19,3 +19,5 @@ def power(x: float, y: int) -> float:
         # Accumulate power
         x = x * x
     return result   
+
+print(power(2, -13))
