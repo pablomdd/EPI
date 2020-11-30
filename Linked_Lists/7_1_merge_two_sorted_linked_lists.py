@@ -1,7 +1,7 @@
 # We iterate trough the lists at the same time
 # reusing nodes and placing them in the correct sorte order
 # Time: O(n+m)
-# Space: O(1) as we reuser nodes
+# Space: O(1) as we reuse nodes
 
 class ListNode:
     def __init__(self, data = 0, next_node = None):
